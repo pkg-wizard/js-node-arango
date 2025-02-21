@@ -1,0 +1,43 @@
+{
+  "name": "js-node-arango",
+  "version": "1.0.4",
+  "description": "NodeJS ArangoDB Provider",
+  "homepage": "https://github.com/pkg-wizard/js-node-arango",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkg-wizard/js-node-arango.git"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.js",
+    "build": "tsc",
+    "clean": "rm -r ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/pkg-wizard/js-node-arango/issues"
+  },
+  "dependencies": {
+    "commonjs-errors": "^1.0.0",
+    "commonjs-logger": "^1.0.0",
+    "arangojs": "^7.8.0",
+    "http-status": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.2",
+    "prettier": "^3.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "arangodb"
+  ],
+  "author": "pkg-wizard",
+  "license": "MIT"
+}
