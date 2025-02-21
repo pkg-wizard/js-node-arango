@@ -1,5 +1,5 @@
-import ApiError, { ResourceNotFoundError } from 'commonjs-errors';
-import { Config as LoggerConfig, getLogger, Logger } from 'commonjs-logger';
+import ApiError, { ResourceNotFoundError } from 'js-node-errors';
+import { Config as LoggerConfig, getLogger, Logger } from 'js-node-logger';
 import { aql, Database } from 'arangojs';
 import { AqlQuery } from 'arangojs/aql';
 import { ArrayCursor } from 'arangojs/cursor';

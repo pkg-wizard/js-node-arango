@@ -1,4 +1,4 @@
-import { Config as LoggerConfig } from 'commonjs-logger';
+import { Config as LoggerConfig } from 'js-node-logger';
 import { AqlValue, GeneratedAqlQuery } from 'arangojs/aql';
 import { DocumentMetadata } from 'arangojs/documents';
 import ArangoDBProvider, { ArangoError } from '..';
